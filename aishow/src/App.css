@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: black;
+}
+.page {
+  height: 100vh;
+  background-color: #1d677e;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  border-radius: 40px 0px 0px 0px;
+  z-index: 0;
+}
+
+.logo {
+  margin-top: 10px;
+  margin-left: 20px;
+  align-self: flex-start;
+  color: white;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.top {
+  width: 100%;
+  display: flex;
+}
+.navbar {
+  margin: 20px;
+  margin-top: 10px;
+  height: 59px;
+  width: 100%;
+  background: #ffffffaf;
+  border-radius: 30px 30px 0px 0px;
+}
+.content {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  z-index: 2;
+}
+
+.container {
+  height: 450px;
+  width: 350px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.527);
+}
+
+.heading {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 1rem;
+}
+
+.img-holder {
+  margin: auto;
+  width: 250px;
+  height: 250px;
+  border-radius: 5px;
+  margin-top: 1rem;
+}
+
+.img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+}
+
+#input[type="file"] {
+  display: none;
+}
+
+.label {
+  width: 100%;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.image-upload {
+  margin: auto;
+  padding: 10px;
+  width: 200px;
+  height: 50px;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.button,
+.button-download {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+.submit-btn {
+  background-color: rgba(51, 151, 197, 0.596);
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  border-radius: 5px;
+  border: 0px;
+}
+.submit-btn:hover {
+  background-color: rgba(42, 37, 42, 0.281);
+}
+.btn-download {
+  padding: 8px;
+  background-color: rgba(51, 151, 197, 0.596);
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  border-radius: 5px;
+  border: 0px;
+}
+a {
+  text-decoration: none;
+}
+
+.particles {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+}
+
+/* 
+@media only screen and (max-width: 768px) {
+  .navbar-min-height {
+    min-height: 40px;
+  }
+  .container {
+    height: 300px;
+    width: 200px;
+  }
+} */
