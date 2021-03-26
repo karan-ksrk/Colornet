@@ -1,4 +1,4 @@
-﻿# Run My Project
+﻿# Want to colorize the old black&white huddy buddy in chuddy images into colored then run my project
 
 ## python 3.8 is recommended
 
