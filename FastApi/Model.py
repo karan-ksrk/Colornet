@@ -41,7 +41,7 @@ class Colornet:
 
     def predict_color(self, filename):
 
-        self.image = resize(256, 256, f'/home/ksrk/Desktop/ML/REST FAST ML/FastApi/upload/{filename}') #Beta
+        self.image = resize(256, 256, f'C:/Users/karan/OneDrive/Desktop/ML/Colornet/FastApi/upload/{filename}') #Beta
         self.image = img_to_array(self.image)
         self.image = np.array(self.image, dtype=float)
 
@@ -58,7 +58,7 @@ class Colornet:
 #         img_uint8 =lab2rgb(self.cur).astype(np.uint8)
 # # and then
 #         imageio.imwrite('/home/ksrk/Desktop/ML/REST FAST ML/FastApi/results/img_result.png', img_uint8)
-        imsave("/home/ksrk/Desktop/ML/REST FAST ML/FastApi/results/img_result.png", lab2rgb(self.cur))
+        imsave("C:/Users/karan/OneDrive/Desktop/ML/Colornet/FastApi/results/img_result.png", lab2rgb(self.cur))
         # imsave("/home/ksrk/Desktop/ML/REST FAST ML/FastApi/results/img_gray_version.png", rgb2gray(lab2rgb(self.cur)))
         print("Doneeeeeeeeeeeeeeeeeeeee")
         return lab2rgb(self.cur)
