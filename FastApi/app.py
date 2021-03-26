@@ -26,12 +26,12 @@ app.add_middleware(
 
 @app.post('/predict')
 async def predict_color(file: UploadFile = File(...)):
-    with open(f"C:/Users/karan/OneDrive/Desktop/ML/Colornet/FastApi/upload/{file.filename}", "wb") as buffer:
+    with open(f"/home/ksrk/Desktop/ML/REST FAST ML/FastApi/upload/{file.filename}", "wb") as buffer:
         shutil.copyfileobj(file.file, buffer)
     result = model.predict_color(file.filename)
-    os.remove(f"C:/Users/karan/OneDrive/Desktop/ML/Colornet/FastApi/upload/{file.filename}")
+    os.remove(f"/home/ksrk/Desktop/ML/REST FAST ML/FastApi/upload/{file.filename}")
 
-    with open("C:/Users/karan/OneDrive/Desktop/ML/Colornet/FastApi/results/img_result.png", "rb") as image_file:
+    with open("/home/ksrk/Desktop/ML/REST FAST ML/FastApi/results/img_result.png", "rb") as image_file:
        encoded_image_string = base64.b64encode(image_file.read())
     # encoded_image_string = base64.b64encode(result)
 
