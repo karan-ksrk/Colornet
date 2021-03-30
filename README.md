@@ -1,6 +1,6 @@
 ﻿# Want to colorize the old black&white huddy-buddy in chuddy images into colored  by running this project 
 
-## python 3.8 is recommended
+## Python 3.8 is recommended
 
 - Open Terminal (for window users use powershell)
 
