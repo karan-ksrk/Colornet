@@ -1,8 +1,8 @@
 ﻿<p align="center">
   <img width="460" height="300" src="mac1.png">
 </p>
-# Want to colorize the old black&white huddy-buddy in chuddy images into colored  by running this project 
-﻿# Want to colorize the old black&white huddy-buddy in chuddy images into colored images
+
+# Want to colorize the old black&white huddy-buddy in chuddy images into colored by running this project
 
 ## Python 3.8 is recommended
 
