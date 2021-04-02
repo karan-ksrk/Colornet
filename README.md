@@ -1,4 +1,4 @@
-﻿<p align="center">
+<p align="center">
   <img width="460" height="300" src="mac1.png">
 </p>
 
