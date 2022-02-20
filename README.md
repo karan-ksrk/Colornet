@@ -10,7 +10,7 @@
 
       git clone https://github.com/karan-ksrk/Colornet
       cd Colornet\FastApi
-      pip install requirements.txt
+      pip install -r requirements.txt
       python app.py
 
 - Open Another Terminal
